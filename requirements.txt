@@ -1,0 +1,6 @@
+pdb
+numpy
+matplotlib
+Bio
+sys
+math
