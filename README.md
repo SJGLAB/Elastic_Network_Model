@@ -54,15 +54,16 @@ conda activate Elastic_net
 cd Elastic_Network_Model
 pip install -r requirements.txt
 ```
-###
-## Usage
+The installation takes about 10 mins. 
+
+## Usage and Demo
 * To calculate the residue fluctuations using the first seven slowest normal modes from the GNM.
 ```
-python3 Flu_disp.py 7
+python3 Flu_disp.py 7   #The output is the residue fluctuation plot. This takes about several mins on a normal desktop computer.
 ```
 * To calculate the residue fluctuations using the first 30 slowest normal modes from the GNM.
 ```
-python3 Flu_disp.py 30
+python3 Flu_disp.py 30   #The output is the residue fluctuation plot. This takes about several mins on a normal desktop computer.
 ```
 * To calculate the normalized cross-correlation of the fluctuations between different regions using the first seven slowest normal modes from GNM.
 ```
@@ -70,29 +71,38 @@ python3 Cross_correlation.py 7
 ```
 * To calculate the normalized cross-correlation of the fluctuations between different regions using the first 30 slowest normal modes from GNM.
 ```
-python3 Cross_correlation.py 30
+python3 Cross_correlation.py 30   # The output is the normalized cross-correlation figure. This takes about several mins on a normal desktop computer.
 ```
 * To display the first slowest symmetric normal modes from the ANM.
 ```
-python3 Mode_disp.py 8   #which generate a file named “modedisp_8.bild”, then a porcupine plot of the first slowest symmetric mode can be generated using UCSF Chimera software.
+python3 Mode_disp.py 8   #which generate a file named “modedisp_8.bild”, then a porcupine plot of the first slowest symmetric mode can be generated using UCSF Chimera software. This takes about several mins on a normal desktop computer.
 ```
-*  To display the second slowest symmetric normal modes from the ANM.
+* To display the second slowest symmetric normal modes from the ANM.
 ``` 
-python3 Mode_disp.py 11   #which generate a file named “modedisp_11.bild”, then a porcupine plot of the second slowest symmetric mode can be generated using UCSF Chimera software.
+python3 Mode_disp.py 11   #which generate a file named “modedisp_11.bild”, then a porcupine plot of the second slowest symmetric mode can be generated using UCSF Chimera software. This takes about several mins on a normal desktop computer.
 ```
 * To calculate the entropy out from each residue with the parameter T/T_0 = 20.
 ```
-python3 Entropy_transfer.py 20   #which generate two figures, and the second figure displays the results of the entropy out from each residue.
+python3 Entropy_transfer.py 20   #which generate two figures, and the second figure displays the results of the entropy out from each residue. This takes about an hour on a normal desktop computer.
 ```
 * To calculate the net entropy transfer between different regions with the parameter T/T_0 = 20.
 ```
 python3 Entropy_transfer.py 20   #which generate two figures, and the first figure displays the results of the net entropy transfer between different regions.
 ```
+* To calculate the net entropy transfer between different regions with the parameter T/T_0 = 20.
+```
+python3 Entropy_transfer.py 10 (or 50)   #which generate two figures, and the first figure displays the results of the net entropy transfer between different regions. This takes about an hour on a normal desktop computer.
+```
 * To calculate the entropy out from each residue with the parameter T/T_0 = 10 (or 50).
 ```
-python3 Entropy_transfer.py 10 (or 50)   #which generate two figures, and the second figure displays the results of the entropy out from each residue.
+python3 Entropy_transfer.py 10 (or 50)   #which generate two figures, and the second figure displays the results of the entropy out from each residue. This takes about an hour on a normal desktop computer.
 ```
 * To calculate the net entropy transfer between different regions with the parameter T/T_0 = 10 (or 50).
 ```
-python3 Entropy_transfer.py 10 (or 50)   #which generate two figures, and the first figure displays the results of the net entropy transfer between different regions.
+python3 Entropy_transfer.py 10 (or 50)   #which generate two figures, and the first figure displays the results of the net entropy transfer between different regions. This takes about an hour on a normal desktop computer.
 ```
+
+## Instructions for use
+The above **Usage and Demo** reproduces all the quantitative results in the manuscript.
+
+## Licence
