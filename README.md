@@ -108,6 +108,6 @@ The above **Usage and Demo** reproduces all the quantitative results in the manu
 ## Licence
 The code is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
-## If you use this code, please cite the paper:
+## If you use this code, please cite the paper
 Yu Liang, Shuai Shao, Xin Yu Li, Zi Xin Zhao, Ning Liu, Zhao Ming Liu, Fu Jie Shen, Hao Zhang, Jun Wei Hou, Xue Feng Zhang, Yu Qin Jin, Li Fang Du, Xin Li, Jing Zhang, Ji Guo Su & Qi Ming Li. 2024.
 
