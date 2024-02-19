@@ -7,7 +7,8 @@ Repository for the application of elastic network mode, including Gaussian netwo
 - [Functions](#Functions)
 - [System_Requirements](#System_Requirements)
 - [Installation_Guide](#Installation_Guide)
-- [Usage](#Usage)
+- [Usage_and_Demo](#Usage_and_Demo)
+- [Instructions_for_use](#Instructions_for_use)
 
 ## Functions
 ***Gaussian_nework_model.py***  constructs the Kirchhoff matrix and calculates the eigenvalues and eigenvectors.  
@@ -56,7 +57,7 @@ pip install -r requirements.txt
 ```
 The installation takes about 10 mins. 
 
-## Usage and Demo
+## Usage_and_Demo
 * To calculate the residue fluctuations using the first seven slowest normal modes from the GNM.
 ```
 python3 Flu_disp.py 7   #The output is the residue fluctuation plot. This takes about several mins on a normal desktop computer.
@@ -102,7 +103,7 @@ python3 Entropy_transfer.py 10 (or 50)   #which generate two figures, and the se
 python3 Entropy_transfer.py 10 (or 50)   #which generate two figures, and the first figure displays the results of the net entropy transfer between different regions. This takes about an hour on a normal desktop computer.
 ```
 
-## Instructions for use
+## Instructions_for_use
 The above **Usage and Demo** reproduces all the quantitative results in the manuscript.
 
 ## Licence
