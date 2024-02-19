@@ -68,7 +68,7 @@ python3 Flu_disp.py 30   #The output is the residue fluctuation plot. This takes
 ```
 * To calculate the normalized cross-correlation of the fluctuations between different regions using the first seven slowest normal modes from GNM.
 ```
-python3 Cross_correlation.py 7
+python3 Cross_correlation.py 7   # The output is the normalized cross-correlation figure. This takes about several mins on a normal desktop computer.
 ```
 * To calculate the normalized cross-correlation of the fluctuations between different regions using the first 30 slowest normal modes from GNM.
 ```
