@@ -1,10 +1,12 @@
 # Elastic_Network_Model
 By Prof. Ji Guo Su
 ****
+## Overview
 Repository for the application of elastic network mode, including Gaussian network model (GNM) and anisotropic network model (ANM), to extract the intrinsic dynamics, motion correlation, and entropy transfer encoded in the native structure of RSV prefusion protein trimer. 
-
 ****
 - [Functions](#Functions)
+- [System_Requirements](#System_Requirements)
+- [Installation_Guide](#Installation_Guide)
 - [Usage](#Usage)
 
 ## Functions
@@ -15,6 +17,44 @@ Repository for the application of elastic network mode, including Gaussian netwo
 ***Mode_disp.py***  displays the residue motion of the specified normal modes from ANM.  
 ***Entropy_transfer.py***  is to analyze the entropy transfer in the structure of RSV pre-F trimer.  
 
+## System_Requirements
+### **1. Hardware requirements**  
+
+Only a standard computer with enough RAM to support the in-memory operations is required.  
+
+### **2. Software requirements**  
+
+#### OS requirements  
+The codes are tested on the following OSes:   
+- Linux x64  
+- Windows 10 x64
+
+And the following x86_64 version of Python:  
+- Python 3.10
+  
+#### Python dependencies  
+- pdb  
+- numpy   
+- matplotlib
+- Bio 
+- sys  
+- math
+
+## Installation_Guide
+### Download the codes
+```
+git clone https://github.com/SJGLAB/Elastic_Network_Model.git
+```
+### Prepare the environment
+We recommand you to use [Anaconda](https://www.anaconda.com/) to prepare the environments.  
+You can create the environment via  
+```
+conda create -n Elastic_net python=3.10
+conda activate Elastic_net
+cd Elastic_Network_Model
+pip install -r requirements.txt
+```
+###
 ## Usage
 * To calculate the residue fluctuations using the first seven slowest normal modes from the GNM.
 ```
