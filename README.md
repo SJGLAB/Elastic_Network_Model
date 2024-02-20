@@ -90,10 +90,6 @@ python3 Entropy_transfer.py 20   #which generate two figures, and the second fig
 ```
 python3 Entropy_transfer.py 20   #which generate two figures, and the first figure displays the results of the net entropy transfer between different regions.
 ```
-* To calculate the net entropy transfer between different regions with the parameter T/T_0 = 20.
-```
-python3 Entropy_transfer.py 10 (or 50)   #which generate two figures, and the first figure displays the results of the net entropy transfer between different regions. This takes about an hour on a normal desktop computer.
-```
 * To calculate the entropy out from each residue with the parameter T/T_0 = 10 (or 50).
 ```
 python3 Entropy_transfer.py 10 (or 50)   #which generate two figures, and the second figure displays the results of the entropy out from each residue. This takes about an hour on a normal desktop computer.
